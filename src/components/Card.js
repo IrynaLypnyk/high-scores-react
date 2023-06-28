@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 
-function Card({ country }) {
-    const scoresSorted = useMemo(() => country.scores.sort((a, b) => b.s - a.s), [country.scores]);
+function Card({ country, isSortedDesc }) {
+    const scoresSorted = useMemo(() => country.scores.sort((a, b) => isSortedDesc ? b.s - a.s : a.s - b.s), [country.scores, isSortedDesc]);
     return (
         <div className="card-container">
             <h3 className="card-title">High scores: {country.name}</h3>

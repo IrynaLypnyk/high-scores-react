@@ -26,6 +26,25 @@
   color: var(--blue);
 }
 
+.app-sort-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid var(--lightBlue);
+  border-radius: 8px;
+  background-color: white;
+  color: var(--lightBlue);
+  cursor: pointer;
+  align-self: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.app-sort-btn:hover {
+  background-color: var(--lightBlue);
+  color: white;
+}
+
+
 .card {
   border: 3px solid var(--yellow);
   border-radius: 8px;
@@ -40,6 +59,7 @@
 .card-list {
   display: flex;
   flex-direction: column;
+  width: 100%;
   row-gap: 2px;
 }
 .card-item {
