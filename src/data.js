@@ -36,5 +36,10 @@ let allCountryScores = [
 
 export default allCountryScores;
 
-export const allCountryScoresSorted = allCountryScores.sort((a,b) => a.name.localeCompare(b.name));
+export const allCountryScoresSortedByCountryName = allCountryScores.sort((a,b) => a.name.localeCompare(b.name));
+
+export const AllTeamsScores = allCountryScores.reduce((acc, cur) => {
+    return [...acc,...cur.scores.map((score) => ({ ...score, n: `${score.n} (${cur.name})` }))];
+}, []);
+
 

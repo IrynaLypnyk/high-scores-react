@@ -29,19 +29,21 @@
 .app-sort-btn {
   padding: 10px 20px;
   margin: 10px;
-  border: 2px solid var(--lightBlue);
+  border: 2px solid var(--blue);
   border-radius: 8px;
-  background-color: white;
-  color: var(--lightBlue);
+  background-color: var(--blue);
+  color: white;
   cursor: pointer;
   align-self: center;
   font-size: 16px;
   font-weight: 700;
+  transition: 0.3s;
 }
 
 .app-sort-btn:hover {
-  background-color: var(--lightBlue);
-  color: white;
+  border: 2px solid var(--blue);
+  background-color: white;
+  color: var(--blue);
 }
 
 
