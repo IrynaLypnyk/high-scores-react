@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import Card from "./components/Card";
 import WorldWideTable from "./components/WorldWideTable";
-import { allCountryScoresSortedByCountryName, AllTeamsScores }  from "./data.js";
+import { allCountryScoresSortedByCountryName }  from "./scores.js";
 
 function App() {
   const [isSortedDesc, setIsSortedDesc ] = useState(false);

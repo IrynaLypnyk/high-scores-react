@@ -6,7 +6,7 @@ Make a React app which lists some high score tables. The scores data is provided
 
 ## Difficulty Level
 
-This is a beginner challenge.  Level 1 can be completed by students who have completed week 1 of the CYF React module.
+This is a beginner challenge. Level 1 can be completed by students who have completed week 1 of the CYF React module.
 
 ## Pre-reqs
 
@@ -22,7 +22,7 @@ To finish level 4
 
 Level 1 challenge screenshot example.
 
-![Example Screenshot](./example-screenshots/react-high-score-tables-example-layout.png)
+![Example Screenshot](./react-high-score-tables-example-layout.png)
 
 # Level 1 Challenge
 
@@ -34,21 +34,26 @@ Level 1 challenge screenshot example.
 
 * You must make AT LEAST:
     - `HighScoreTable` - a table with a country name and a list of player-scores for that country.
-    - `PlayerScore` - component responsible for displaying a single score by one player (e.g. as one line of the table) (e.g. `Neill 2000`)
+    - `PlayerScore` - component responsible for displaying a single score by one player (e.g. as one line of the
+      table) (e.g. `Neill 2000`)
 
 ### Getting Started
 
 **Don't** clone this repo.
 
-Make your own React app using `create-react-app`.  See [(this guide)](https://docs.codeyourfuture.io/students/guides/creating-a-react-app) if you have forgotten how.
+Make your own React app using `create-react-app`.
+See [(this guide)](https://docs.codeyourfuture.io/students/guides/creating-a-react-app) if you have forgotten how.
 
 Copy across the score file (or the score file's contents) from this repo to your app, and then import from that file.
 
-Write a plain HTML prototype first for two or three countries (e.g. on codepen).  THEN, once you know the HTML you're attempting to create, work on the React version!  This is not mandatory but it is recommended.
+Write a plain HTML prototype first for two or three countries (e.g. on codepen). THEN, once you know the HTML you're
+attempting to create, work on the React version!  This is not mandatory but it is recommended.
 
 ### The data:
 
-The data is available in the file [./scores.js](./scores.js).   Here is [a raw version of it](https://raw.githubusercontent.com/codeyourfuture/cyf-react-challenges/master/challenge-high-score-tables/scores.js), suitable for saving.
+The data is available in the file [./src/scores.js](./src/scores.js). Here
+is [a raw version of it](https://raw.githubusercontent.com/codeyourfuture/cyf-react-challenges/master/challenge-high-score-tables/scores.js),
+suitable for saving.
 
 You can copy this array of data into your App.js or you can import it.
 
@@ -74,7 +79,9 @@ so...
 - Within each individual table, show the highest scores first - i.e. sort the scores numerically, descending.
 
 # Level 4 - advanced (needs content from React week 2)
-- Add a _single_ button at the top of the page which toggles the sort order of every high-score-table between ascending and descending by scores.  This will require some study about event handlers and the use of a "State hook".
+
+- Add a _single_ button at the top of the page which toggles the sort order of every high-score-table between ascending
+  and descending by scores. This will require some study about event handlers and the use of a "State hook".
 
 # Level 5 - advanced
 

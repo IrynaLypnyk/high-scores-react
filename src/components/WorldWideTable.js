@@ -1,5 +1,5 @@
 import React from "react";
-import { AllTeamsScores }  from "../data.js";
+import { AllTeamsScores }  from "../scores.js";
 import Card from "./Card";
 
 function WorldWideTable({ isSortedDesc }) {
