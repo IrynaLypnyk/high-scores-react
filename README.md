@@ -1,3 +1,5 @@
+### Demo site: [https://cyf-irynalypnyk-scores.netlify.app/](https://cyf-irynalypnyk-scores.netlify.app/)
+
 # Challenge: "High Score Tables (React)"
 
 ## Challenge Overview
