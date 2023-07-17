@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+:root {
+  --blue: #0b3954;
+  --red: #ff6663;
+  --yellow: #e0ff4f;
+  --lightBlue: #bfd7ea;
+}
+#root {
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  row-gap: 16px;
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 32px;
+  border: 2px solid var(--lightBlue);
+  border-radius: 8px;
+}
+
+.app-title {
+  color: var(--blue);
+}
+
+.app-sort-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+  background-color: var(--blue);
   color: white;
+  cursor: pointer;
+  align-self: center;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.app-sort-btn:hover {
+  border: 2px solid var(--blue);
+  background-color: white;
+  color: var(--blue);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card {
+  border: 3px solid var(--yellow);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-title {
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 2px;
+}
+.card-item {
+  display: flex;
+  column-gap: 2px;
+  text-align: right;
+}
+
+.card-half-item {
+  display: inline-block;
+  background-color: var(--lightBlue);
+  padding: 16px;
+  width: 50%;
+}
+
+.card-team-name {
+  font-weight: 600;
+}
+.card-scores {
+  color: var(--red);
+  font-weight: 700;
 }
